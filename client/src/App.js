@@ -8,7 +8,7 @@ import ReminderPopup from './ReminderPopup';
 import { deleteSingleReminder, getReminderDetail, listReminders, clearReminderData } from './redux/reminder/reminder.action';
 import './App.css';
 
-const ENDPOINT = "http://127.0.0.1:5000";
+const ENDPOINT = "https://reminderdemoapp.herokuapp.com";
 
 export const App = ()=> {
   const dispatch = useDispatch();
