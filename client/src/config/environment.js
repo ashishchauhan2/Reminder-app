@@ -1,5 +1,5 @@
 export const Config = {
-    API: 'http://localhost:5000',
+    API: 'https://reminderdemoapp.herokuapp.com',
 };
 
   
