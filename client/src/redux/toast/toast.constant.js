@@ -1,0 +1,3 @@
+export const SUCCESS_TOAST = 'SUCCESS_TOAST';
+export const UDPATE_TOAST = 'UDPATE_TOAST';
+export const DELETE_TOAST = 'DELETE_TOAST';

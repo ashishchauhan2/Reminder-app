@@ -1,0 +1,37 @@
+.cursor {
+    cursor: pointer;
+}
+.iconColor{
+    color: #D22B2B
+}
+.reminderText{
+    display: inline-block;
+    width: 48rem;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-left: 3rem;
+}
+.reminderDate{
+    margin-left: 10px;
+    display: inline-block;
+    overflow: hidden !important;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;  
+  }
+  .greenSignal{
+    background-color:green;
+  }
+  .redSignal{
+    background-color:red;
+  }
+@media only screen and (max-width: 767px) {
+    .reminderText{
+        width: 12rem;
+        margin-left: 0;
+    }
+}
