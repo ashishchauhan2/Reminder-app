@@ -39,12 +39,8 @@ const api = require('./routes/routes');
 app.use('/api/v1/', api);
 
 // This middleware informs the express application to serve our compiled React files
-if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
-    app.use(express.static(path.join(__dirname, 'client/build')));
-
-    app.get('*', function (req, res) {
-        res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-    });
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
 };
 
 // Catch any bad requests
